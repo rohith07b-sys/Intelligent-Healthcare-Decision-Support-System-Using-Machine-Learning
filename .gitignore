@@ -1,0 +1,23 @@
+# Local Python environment and caches
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/instance/
+backend/data/*.csv
+backend/artifacts/models/*
+!backend/artifacts/models/.gitkeep
+*.py[cod]
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+backend/.env
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
